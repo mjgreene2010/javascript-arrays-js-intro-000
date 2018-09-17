@@ -27,11 +27,11 @@ function destructivelyAddElementToEndOfArray(array, element){ array.push(element
 return array
   }
 
-/*when to use ...x, and x..., versus 
+/*when to use ...adcd, and abcd..., versus 
   when to use unshift and push */
   
   function accessElementInArray(array, index){
-    return array[2]
+    return array[index]
   }
   //why did it require the second element
   
